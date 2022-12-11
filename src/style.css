@@ -50,3 +50,15 @@ button {
   margin: 0 auto;
   text-align: center;
 }
+
+@media (max-width: 740px) {
+  .btn {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  footer {
+    text-align: center;
+  }
+}

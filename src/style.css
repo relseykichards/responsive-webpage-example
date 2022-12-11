@@ -1,0 +1,52 @@
+:root {
+  --primary-color: #5e8e76;
+  --secondary-color: #ffb000;
+  --border: #5e8e76 2px solid;
+}
+
+h1 {
+  margin: 0;
+  color: var(--primary-color);
+}
+h3 {
+  margin: 0;
+  margin-top: 20px;
+  color: var(--primary-color);
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.button-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-link {
+  border-radius: 4px;
+  border: var(--border);
+  border-color: var(--primary-color);
+  padding: 20px 15px;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: white;
+  margin: 20px;
+}
+
+.about-link {
+  border-radius: 4px;
+  border: var(--border);
+  border-color: var(--primary-color);
+  padding: 20px 15px;
+  text-decoration: none;
+  background-color: white;
+  color: var(--primary-color);
+  margin: 20px;
+}
+
+.text-center {
+  margin: 0 auto;
+  text-align: center;
+}
